@@ -1,0 +1,35 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container .itemWrapper {
+  width: 100%;
+  position: relative;
+}
+.container .itemWrapper .item {
+  width: 200px;
+  border: 1px solid #e6e6e6;
+  position: absolute;
+}
+.container .itemWrapper .item .bottom {
+  padding: 6px;
+}
+.container .itemWrapper .item .bottom .title {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container .itemWrapper .item .bottom .intro {
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+}
+.container .time {
+  font-style: italic;
+  font-size: 22px;
+  color: #ccc;
+}
